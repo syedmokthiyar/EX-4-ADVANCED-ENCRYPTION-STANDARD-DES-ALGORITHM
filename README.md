@@ -13,9 +13,7 @@
 ```c
 #include <stdio.h>
 #include <string.h>
-
-
-  void xor_encrypt_decrypt(char *input, char *key) {
+void xor_encrypt_decrypt(char *input, char *key) {
 int input_len = strlen(input);
 int key_len = strlen(key);
 
